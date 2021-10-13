@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get 'hello/list'
 
   get 'view/html5'
+  get 'view/select'
 end
