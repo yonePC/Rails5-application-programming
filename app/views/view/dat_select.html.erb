@@ -1,0 +1,23 @@
+<%= form_for(@book) do |f| %>
+  <%= f.date_select :published, use_month_numbers: true %>
+<% end %>
+
+<%= form_for(@book) do |f| %>
+  <%= f.date_select :published, use_short_month: true %>
+<% end %>
+
+<%= form_for(@book) do |f| %>
+  <%= f.date_select :published, use_two_digit_numbers: true %>
+<% end %>
+
+<%= form_for(@book) do |f| %>
+  <%= f.date_select :published, add_month_numbers: true %>
+<% end %>
+
+<%= form_for(@book) do |f| %>
+  <%= f.date_select :published, use_month_names: %w(睦月 如月 弥生) %>
+<% end %>
+
+<%= form_for(@book) do |f| %>
+  <%= f.date_select :published, date_separator: "/" %>
+<% end %>
