@@ -22,4 +22,5 @@ Rails.application.routes.draw do
   get 'view/fields'
   get 'view/simple_format'
   get 'view/trancate'
+  get 'view/excerpt'
 end
