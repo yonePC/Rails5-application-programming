@@ -21,4 +21,5 @@ Rails.application.routes.draw do
   get 'view/col_radio'
   get 'view/fields'
   get 'view/simple_format'
+  get 'view/trancate'
 end
