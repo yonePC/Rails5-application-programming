@@ -54,5 +54,9 @@ class ViewController < ApplicationController
     @user = User.find(1)
   end
 
+  def conc
+    @books = Book.all
+  end
+
 
 end
