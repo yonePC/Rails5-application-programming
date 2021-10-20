@@ -28,4 +28,5 @@ Rails.application.routes.draw do
   get 'view/sanitize'
   get 'view/format'
   get 'view/number_to'
+  get 'view/datetime'
 end
