@@ -33,4 +33,6 @@ Rails.application.routes.draw do
   get 'view/urlfor'
   get 'view/new'
   get 'members/login'
+  get 'view/linkif'
+  get 'login/info'
 end
