@@ -35,4 +35,6 @@ Rails.application.routes.draw do
   get 'members/login'
   get 'view/linkif'
   get 'login/info'
+  get 'view/current'
+  get 'view/detail'
 end
