@@ -38,4 +38,5 @@ Rails.application.routes.draw do
   get 'view/current'
   get 'view/detail'
   get 'view/mailto'
+  get 'view/image_tag'
 end
