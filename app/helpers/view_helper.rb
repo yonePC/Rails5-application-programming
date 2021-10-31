@@ -13,7 +13,7 @@ module ViewHelper
 
     datetime.strftime(format)
   end
-  
+
   def list_tag(collection, prop)
     content_tag(:ul) do
       collection.each do |element|
@@ -21,7 +21,7 @@ module ViewHelper
       end
     end
   end
-  
+
   def blockquote_tag(cite, citetext, options = {}, &block)
     options.merge! cite: cite
     quote_tag = content_tag(:blockquote, capture(&block), options)

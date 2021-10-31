@@ -57,6 +57,10 @@ class ViewController < ApplicationController
   def conc
     @books = Book.all
   end
+  
+  def adopt
+    render layout: 'sub'
+  end
 
 
 end
