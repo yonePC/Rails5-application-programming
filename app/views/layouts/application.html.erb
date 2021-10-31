@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Railbook</title>
+    
+    <!--<title>Railbook</title>-->
+    <!--<title>%= @title || 'Rails入門' %></title>-->
+    <title><%= yield(:title) || 'Rails入門' %></title>
+    
     <%= csrf_meta_tags %>
     <%= auto_discovery_link_tag(:rss,
     { controller: :books, action: :index, id: :rails },
