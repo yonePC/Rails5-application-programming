@@ -57,9 +57,13 @@ class ViewController < ApplicationController
   def conc
     @books = Book.all
   end
-  
+
   def adopt
     render layout: 'sub'
+  end
+
+  def multi
+    render layout: 'layout'
   end
 
 
