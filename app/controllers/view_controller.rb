@@ -65,6 +65,11 @@ class ViewController < ApplicationController
   def multi
     render layout: 'layout'
   end
+  
+  def nest
+    @msg = '今日も良い天気です'
+    render layout: 'child'
+  end
 
 
 end
