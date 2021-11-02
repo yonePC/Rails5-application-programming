@@ -74,6 +74,10 @@ class ViewController < ApplicationController
   def partical_basic
     @book = Book.find(1)
   end
+  
+  def partical_param
+    @book = Book.find(1)
+  end
 
 
 end
