@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   get 'view/download'
   get 'view/quest'
   get 'view/nest'
+  get 'view/partical_basic'
 end
