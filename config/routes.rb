@@ -57,4 +57,6 @@ Rails.application.routes.draw do
   get 'view/nest'
   get 'view/partical_basic'
   get 'view/partical_param'
+  get 'view/partial_col'
+  get 'view/partial_sepacer'
 end

@@ -65,18 +65,26 @@ class ViewController < ApplicationController
   def multi
     render layout: 'layout'
   end
-  
+
   def nest
     @msg = '今日も良い天気です'
     render layout: 'child'
   end
-  
+
   def partical_basic
     @book = Book.find(1)
   end
-  
+
   def partical_param
     @book = Book.find(1)
+  end
+
+  def partial_col
+    @books = Book.all
+  end
+
+  def partial_sepacer
+    @books = Book.all
   end
 
 
