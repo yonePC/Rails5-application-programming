@@ -59,4 +59,6 @@ Rails.application.routes.draw do
   get 'view/partical_param'
   get 'view/partial_col'
   get 'view/partial_sepacer'
+
+  get 'record/find'
 end
