@@ -61,4 +61,6 @@ Rails.application.routes.draw do
   get 'view/partial_sepacer'
 
   get 'record/find'
+  get 'record/find_by'
+  get 'record/find_by2'
 end
