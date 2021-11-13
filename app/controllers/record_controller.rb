@@ -43,4 +43,9 @@ class RecordController < ApplicationController
     render 'hello/list'
   end
   
+  def order
+    @books = Book.where(publish: '技術評論社').order(published: :desc)
+    render 'hello/list'
+  end
+  
 end
