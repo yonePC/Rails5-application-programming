@@ -37,4 +37,10 @@ class RecordController < ApplicationController
     @books = Book.where.not(isbn: params[:id])
     render 'books/index'
   end
+  
+  def where_or
+    @books = Book.where(publish: '技術評論社').or(Book.where('price > 2000'))
+    render 'hello/list'
+  end
+  
 end
