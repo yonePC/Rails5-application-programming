@@ -62,4 +62,9 @@ class RecordController < ApplicationController
     @pubs = Book.select(:publish).distinct.order(:publish)
   end
   
+  def offset
+    @books = Book.order(published: :desc).limit(3).offset(4)
+    render 'hello/list'
+  end
+  
 end
